@@ -908,9 +908,9 @@ ripple carry adder的缺点是进位延迟随位数线性增长。look ahead car
 #image("/assets/image-39.png")
 
 #definition[每个latch的功能关系][
-  + 当 $D = 0$ 且 EN = 1 时，对应输出被RESET
-  + 当 $D = 1$ 且 EN = 1 时，对应输出被SET
-  + 当 EN = 0 时，无论D为何，输出保持原状态
+  + 当 $D = 0$ 且EN = 1时，对应输出被RESET
+  + 当 $D = 1$ 且EN = 1时，对应输出被SET
+  + 当EN = 0时，无论D为何，输出保持原状态
 ]
 
 #method[按管脚编号分组记][
